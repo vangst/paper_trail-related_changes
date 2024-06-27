@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     paper_trail-related_changes (1.0.2)
-      paper_trail (~> 13.0)
+      paper_trail (~> 15.0)
       rails (~> 7.1)
 
 GEM
@@ -113,22 +113,22 @@ GEM
     mini_portile2 (2.8.5)
     minitest (5.22.2)
     mutex_m (0.2.0)
-    net-imap (0.4.10)
+    net-imap (0.4.14)
       date
       net-protocol
     net-pop (0.1.2)
       net-protocol
     net-protocol (0.2.2)
       timeout
-    net-smtp (0.4.0.1)
+    net-smtp (0.5.0)
       net-protocol
-    nio4r (2.7.0)
+    nio4r (2.7.3)
     nokogiri (1.16.2)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    paper_trail (13.0.0)
-      activerecord (>= 5.2)
-      request_store (~> 1.1)
+    paper_trail (15.1.0)
+      activerecord (>= 6.1)
+      request_store (~> 1.4)
     pg (1.5.6)
     psych (5.1.2)
       stringio
@@ -175,7 +175,7 @@ GEM
       psych (>= 4.0.0)
     reline (0.4.3)
       io-console (~> 0.5)
-    request_store (1.6.0)
+    request_store (1.7.0)
       rack (>= 1.4)
     rspec-core (3.13.0)
       rspec-support (~> 3.13.0)
